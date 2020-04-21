@@ -3,6 +3,9 @@ Módulo exemplo do curso PyTools
 
 Link do curso [Python Pro](https://www.python.pro.br/)
 
+[![Updates](https://pyup.io/repos/github/hemilioaraujo/libpythonpro/shield.svg)](https://pyup.io/repos/github/hemilioaraujo/libpythonpro/)
+[![Python 3](https://pyup.io/repos/github/hemilioaraujo/libpythonpro/python-3-shield.svg)](https://pyup.io/repos/github/hemilioaraujo/libpythonpro/)
+
 Suportada versão 3 de Python
 
 Para instalar:
