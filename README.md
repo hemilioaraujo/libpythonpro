@@ -3,6 +3,7 @@ Módulo exemplo do curso PyTools
 
 Link do curso [Python Pro](https://www.python.pro.br/)
 
+[![Build Status](https://www.travis-ci.org/hemilioaraujo/libpythonpro.svg?branch=master)](https://www.travis-ci.org/hemilioaraujo/libpythonpro)
 [![Updates](https://pyup.io/repos/github/hemilioaraujo/libpythonpro/shield.svg)](https://pyup.io/repos/github/hemilioaraujo/libpythonpro/)
 [![Python 3](https://pyup.io/repos/github/hemilioaraujo/libpythonpro/python-3-shield.svg)](https://pyup.io/repos/github/hemilioaraujo/libpythonpro/)
 
