@@ -6,6 +6,7 @@ Link do curso [Python Pro](https://www.python.pro.br/)
 [![Build Status](https://www.travis-ci.org/hemilioaraujo/libpythonpro.svg?branch=master)](https://www.travis-ci.org/hemilioaraujo/libpythonpro)
 [![Updates](https://pyup.io/repos/github/hemilioaraujo/libpythonpro/shield.svg)](https://pyup.io/repos/github/hemilioaraujo/libpythonpro/)
 [![Python 3](https://pyup.io/repos/github/hemilioaraujo/libpythonpro/python-3-shield.svg)](https://pyup.io/repos/github/hemilioaraujo/libpythonpro/)
+[![codecov](https://codecov.io/gh/hemilioaraujo/libpythonpro/branch/master/graph/badge.svg)](https://codecov.io/gh/hemilioaraujo/libpythonpro)
 
 Suportada versão 3 de Python
 

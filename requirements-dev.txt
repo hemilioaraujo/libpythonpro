@@ -11,4 +11,8 @@ more-itertools==8.4.0
 six==1.15.0
 pytest==5.4.3
 pluggy==0.13.1
+
+# COVERAGE
+coverage==5.2
+pytest-cov==2.10.0
 -r requirements.txt
