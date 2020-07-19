@@ -4,9 +4,9 @@ from libpythonpro import github_api
 
 
 @pytest.fixture()
-def avatar_url():
+def avatar_url(mocker):
     """
-    Este teste utiliza o Mock para "Simular o acesso a API",
+    Este teste utiliza o Mock para "Simular" o acesso a API,
     é criado uma instância de Mock com os métodos e retornos desejados
     para o módulo github_api.
     :return: url
@@ -20,12 +20,10 @@ def avatar_url():
         "id": 28680369,
         "avatar_url": url,
     }
-    get_original = github_api.requests.get
-    # ALTERANDO O MÉTODO GITHUB_API.REQUESTS.GET PARA RETORNAR OS DADOS DO MOCK
-    github_api.requests.get = Mock(return_value=resp_mock)
-    yield url
-    # RETORNANDO O MÉTODO GET PARA O ORIGINAL
-    github_api.requests.get = get_original
+    # UTILIZANDO O PYTEST-MOC PARA MOCKAR, ALTERAR, UTILIZAR E DEPOIS RETORNAR O MÓDULO AO NORMAL
+    get_mock = mocker.patch('libpythonpro.github_api.requests.get')
+    get_mock.return_value = resp_mock
+    return url
 
 
 def test_buscar_avatar(avatar_url):

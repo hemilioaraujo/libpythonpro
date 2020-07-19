@@ -11,6 +11,7 @@ more-itertools==8.4.0
 six==1.15.0
 pytest==5.4.3
 pluggy==0.13.1
+pytest-mock==3.2.0
 
 # COVERAGE
 coverage==5.2
