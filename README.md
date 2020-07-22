@@ -22,6 +22,11 @@ Para conferir qualidade do código:
 flake8
 ```
 
+Para conferir cobertura de testes:
+```console
+pytest libpythonpro --cov=libpythonpro
+```
+
 Tópicos a serem abordados:  
 1. Git  
 2. Virtualenv
