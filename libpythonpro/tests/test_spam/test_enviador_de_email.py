@@ -20,7 +20,7 @@ def test_remetente(remetente):
         'Curso Python Pro',
         'Vamo participar gente!',
     )
-    assert remetente in resultado
+    assert remetent in resultado
 
 
 @pytest.mark.parametrize(
